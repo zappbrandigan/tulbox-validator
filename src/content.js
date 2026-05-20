@@ -96,7 +96,10 @@
       errors.push("Type must be OG when Genre is 059.");
     }
 
-    if (!values.capacities.some((capacity) => hasCode(capacity, ["CA", "C"]))) {
+    if (
+      !hasCode(values.musicTextRelationship, ["TXT"]) &&
+      !values.capacities.some((capacity) => hasCode(capacity, ["CA", "C"]))
+    ) {
       errors.push("At least one writer capacity must be C or CA.");
     }
 

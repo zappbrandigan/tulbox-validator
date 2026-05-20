@@ -31,7 +31,7 @@ Rules live in `src/content.js` inside the `validate(values)` function.
 
 - If Genre starts with `054` or `050`, Type must start with `CU`.
 - If Genre starts with `059`, Type must start with `OG`.
-- At least one writer capacity must start with `C` or `CA`.
+- Unless Music Text Relationship starts with `TXT`, at least one writer capacity must start with `C` or `CA`.
 - If Music Text Relationship starts with `MTX`, at least one writer capacity must start with `CA` or `A`.
 - If Music Text Relationship starts with `MUS`, no writer capacity may start with `CA`, `A`, or `SA`.
 

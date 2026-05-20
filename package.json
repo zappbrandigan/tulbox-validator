@@ -1,0 +1,14 @@
+{
+  "name": "tbl-ext",
+  "private": true,
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "publish": "node scripts/publish.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "javascript-obfuscator": "^4.1.0"
+  }
+}

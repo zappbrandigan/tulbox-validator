@@ -1,0 +1,16 @@
+.tulbox-validation-message {
+  color: #f44336;
+  font-size: 12px;
+  line-height: 1.35;
+  margin-top: 37px;
+}
+
+.tulbox-validation-message[hidden] {
+  display: none;
+}
+
+button.tulbox-blocked {
+  cursor: not-allowed !important;
+  background-color: #0000001f !important;
+  color: #00000042 !important;
+}

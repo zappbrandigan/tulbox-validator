@@ -1,6 +1,6 @@
 # Tulbox Validator
 
-Chrome Manifest V3 extension that gates a site's `Save`, `Submit`, or `Submit Changes` button behind custom validation rules.
+Chrome extension that gates a site's `Submit` button behind custom validation rules.
 
 ## Watched Fields
 
